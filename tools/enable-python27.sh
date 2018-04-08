@@ -51,6 +51,7 @@ elif [ -e "/opt/rh/python27/root/usr/bin/python2.7" ]; then
   fi
 fi
 
-if [ -f "$HOME/.bashrc" ]; then
-  . $HOME/.bashrc
-fi
+#if [ -f "$HOME/.bashrc" ]; then
+#  . $HOME/.bashrc
+#fi
+#python --version
